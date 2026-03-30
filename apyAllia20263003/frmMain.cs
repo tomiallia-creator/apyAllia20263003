@@ -16,5 +16,20 @@ namespace apyAllia20263003
         {
             InitializeComponent();
         }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            lblFecha.Text = DateTime.Now.ToString();
+        }
+
+        private void lblFecha_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnContador_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
