@@ -27,7 +27,14 @@ namespace apyAllia20263003
 
         }
 
+        int contador = 0;
         private void btnContador_Click(object sender, EventArgs e)
+        {
+            contador = contador + 1;
+            lblContador.Text = contador.ToString();
+        }
+
+        private void lblCant_Click(object sender, EventArgs e)
         {
 
         }
