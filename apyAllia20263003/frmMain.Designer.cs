@@ -42,7 +42,7 @@
             // picFondo
             // 
             this.picFondo.Image = ((System.Drawing.Image)(resources.GetObject("picFondo.Image")));
-            this.picFondo.Location = new System.Drawing.Point(-2, -2);
+            this.picFondo.Location = new System.Drawing.Point(-2, -3);
             this.picFondo.Name = "picFondo";
             this.picFondo.Size = new System.Drawing.Size(503, 334);
             this.picFondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -53,31 +53,30 @@
             // 
             this.lblCafe.AutoSize = true;
             this.lblCafe.BackColor = System.Drawing.Color.Transparent;
-            this.lblCafe.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCafe.Location = new System.Drawing.Point(46, 85);
+            this.lblCafe.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCafe.Location = new System.Drawing.Point(171, 65);
             this.lblCafe.Name = "lblCafe";
-            this.lblCafe.Size = new System.Drawing.Size(139, 28);
+            this.lblCafe.Size = new System.Drawing.Size(181, 35);
             this.lblCafe.TabIndex = 1;
-            this.lblCafe.Text = "Cafe del dia";
+            this.lblCafe.Text = "Coffee del dia";
             // 
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
             this.lblFecha.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold);
-            this.lblFecha.Location = new System.Drawing.Point(12, 9);
+            this.lblFecha.Location = new System.Drawing.Point(290, 9);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(68, 25);
+            this.lblFecha.Size = new System.Drawing.Size(0, 25);
             this.lblFecha.TabIndex = 2;
-            this.lblFecha.Text = "Fecha";
             this.lblFecha.Click += new System.EventHandler(this.lblFecha_Click);
             // 
             // lblCant
             // 
             this.lblCant.AutoSize = true;
-            this.lblCant.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCant.Location = new System.Drawing.Point(122, 197);
+            this.lblCant.Font = new System.Drawing.Font("Corbel", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCant.Location = new System.Drawing.Point(159, 209);
             this.lblCant.Name = "lblCant";
-            this.lblCant.Size = new System.Drawing.Size(123, 28);
+            this.lblCant.Size = new System.Drawing.Size(115, 29);
             this.lblCant.TabIndex = 3;
             this.lblCant.Text = "Cantidad :";
             this.lblCant.Click += new System.EventHandler(this.lblCant_Click);
@@ -85,7 +84,7 @@
             // btnContador
             // 
             this.btnContador.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnContador.Location = new System.Drawing.Point(191, 132);
+            this.btnContador.Location = new System.Drawing.Point(159, 150);
             this.btnContador.Name = "btnContador";
             this.btnContador.Size = new System.Drawing.Size(193, 44);
             this.btnContador.TabIndex = 4;
@@ -102,7 +101,7 @@
             "Cafe IES",
             "Cafe con leche",
             "Cafe negro"});
-            this.cmbCafe.Location = new System.Drawing.Point(191, 92);
+            this.cmbCafe.Location = new System.Drawing.Point(159, 112);
             this.cmbCafe.Name = "cmbCafe";
             this.cmbCafe.Size = new System.Drawing.Size(193, 21);
             this.cmbCafe.TabIndex = 5;
@@ -110,12 +109,11 @@
             // lblContador
             // 
             this.lblContador.AutoSize = true;
-            this.lblContador.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContador.Location = new System.Drawing.Point(244, 197);
+            this.lblContador.Font = new System.Drawing.Font("Corbel", 18F);
+            this.lblContador.Location = new System.Drawing.Point(274, 209);
             this.lblContador.Name = "lblContador";
-            this.lblContador.Size = new System.Drawing.Size(112, 28);
+            this.lblContador.Size = new System.Drawing.Size(0, 29);
             this.lblContador.TabIndex = 6;
-            this.lblContador.Text = "contador";
             // 
             // frmMain
             // 
@@ -131,6 +129,7 @@
             this.Controls.Add(this.picFondo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cafeteria IES";
             this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picFondo)).EndInit();
